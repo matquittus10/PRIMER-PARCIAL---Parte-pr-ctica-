@@ -1,5 +1,6 @@
 PROMPTS UTILIZADOS
 - Diagrama de clases: "Quiero que diseñes un diagrama de clases en mermaid simple sobre una farmacia" (a partir de ahí se hicieron cambios de acuerdo al criterio seguido)
 - Implementación: *se introdujo la imagen del diagrama* "Quiero que transcribas las clases (con atributos y métodos) en el package Models"
+- Diseño de interfaz: Diseña dos interfaces que permita listar al menos dos de los objetos implementados, detalla los componentes de Jetpack compose que serán utilizados
 ACLARACIONES
 - Las clases declaradas en el código dentro de la carpeta Models incluyen, además de lo mostrado en el diagrama, las relaciones necesarias para que las clases se conozcan entre sí (es decir, atributos que sirven como conectores entre clases), por lo que no están algunos atributos del código en el diagrama
