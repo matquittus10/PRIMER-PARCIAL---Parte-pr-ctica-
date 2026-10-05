@@ -1,0 +1,66 @@
+Pantalla 1: Lista de Medicamentos
+┌─────────────────────────────┐
+│ Medicamentos            🔍  │  ← TopAppBar
+├─────────────────────────────┤
+│ [🔍 Buscar medicamento...]  │  ← OutlinedTextField
+│ (Todos) (Con stock) (Vence) │  ← FilterChip
+├─────────────────────────────┤
+│ ┌─────────────────────────┐ │
+│ │ Paracetamol 500mg       │ │  ← Card
+│ │ Lab. Bagó               │ │
+│ │ Bs 12.50     Stock: 40  │ │
+│ │ Vence: 12/2027          │ │
+│ └─────────────────────────┘ │
+│ ┌─────────────────────────┐ │
+│ │ Ibuprofeno 400mg        │ │
+│ │ Lab. Inti               │ │
+│ │ Bs 18.00  ⚠ Stock: 3    │ │
+│ └─────────────────────────┘ │
+│                        ( + )│  ← FloatingActionButton
+├─────────────────────────────┤
+│  💊 Medicamentos   🧾 Ventas │  ← NavigationBar
+└─────────────────────────────┘
+
+Componentes utilizados:
+- Scaffold
+- TopAppBar
+- OutlinedTextField
+- Row + FilterChip
+- LazyColumn + items
+- Card
+- Column, Row, Spacer
+- Text 
+- Icon
+- FloatingActionButton
+- NavigationBar + NavigationBarItem
+
+Pantalla 2: Lista de Ventas
+┌─────────────────────────────┐
+│ Ventas                  📅  │  ← TopAppBar
+├─────────────────────────────┤
+│ Hoy · 5 ventas · Bs 230.00  │  ← Card de resumen
+├─────────────────────────────┤
+│ ┌─────────────────────────┐ │
+│ │ Venta #101   05/10/2026 │ │  ← ListItem / Card
+│ │ Cliente: María Quispe   │ │
+│ │ Atendió: Juan Pérez     │ │
+│ │ Total: Bs 45.50      >  │ │
+│ └─────────────────────────┘ │
+│ ┌─────────────────────────┐ │
+│ │ Venta #102   05/10/2026 │ │
+│ │ Cliente: Carlos Mamani  │ │
+│ │ Total: Bs 18.00      >  │ │
+│ └─────────────────────────┘ │
+│                        ( + )│
+├─────────────────────────────┤
+│  💊 Medicamentos   🧾 Ventas │
+└─────────────────────────────┘
+- Scaffold
+- TopAppBar + IconButton
+- Card
+- LazyColumn
+- ListItem
+- Text
+- HorizontalDivider
+- Icon
+- FloatingActionButton
